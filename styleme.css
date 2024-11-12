@@ -24,9 +24,29 @@ body {
 
 .container {
     width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        font-size: 14px;
+        padding: 5px;
+    }
 }
 
 
