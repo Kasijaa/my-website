@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+	overflow: hidden;
+    height: 100%;
+}
+.pozadina2 {
+    background-image: url('./pozadina2.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.pozadina3 {
+    background-image: url('./pozadina4.jpeg');
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.intro {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+.about h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s;
+    cursor: pointer;
+    position: relative;
+    perspective: 1000px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card i {
+    font-size: 2em;
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+
+
+.skills {
+    margin-top: 30px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-weight: bold;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #007bff;
+}
+
+
+.button-link {
+    color: #fff; 
+    background-color: #007bff; 
+    padding: 8px 15px;
+    border-radius: 25px; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+	 text-align: center;
+}
+
+.button-link:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.contact {
+    text-align: center; 
+    color: #000;
+    font-size: 1.1em; 
+    margin-top: 20px; 
+    line-height: 1.6; 
+    padding: 10px;
+   
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+.abo:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.slike {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.slike img {
+    width: 30%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+}
+
+.slike img:hover {
+    transform: scale(1.05); 
+}
+
+
+
