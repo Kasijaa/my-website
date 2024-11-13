@@ -103,6 +103,7 @@ h1 {
 }
 
 .card {
+	text-align: center;
     width: 150px;
     height: 200px;
     display: flex;
