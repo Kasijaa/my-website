@@ -20,35 +20,28 @@ body {
 .pozadina3 {
     background-image: url('./pozadina4.jpeg');
     background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
+nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap:10px;
+}
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-    body {
-        font-size: 16px;
-        padding: 10px;
-    }
+	nav a {
+		font-size:14px;
+	}
 }
-
-
-@media (max-width: 480px) {
-    .container {
-        width: 100%;
-    }
-    body {
-        font-size: 14px;
-        padding: 5px;
-    }
-}
-
 
 header nav {
     text-align: center;
